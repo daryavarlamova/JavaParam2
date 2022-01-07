@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StatsServiceTest {
     @org.junit.jupiter.api.Test
-    public void checkMonthSum() {
+    void checkMonthSum() {
         StatsService service = new StatsService();
         int[] managerSales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 180;
